@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to left,rgb(119, 108, 108),rgb(216, 202, 202));
+    text-align: center;
+    color: rgb(59, 56, 56);
+}
+
+h1{
+    font-size: 60px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h2{
+    font-size: 40px;
+    	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+p{
+    font-size: 30px;
+}
+
+button{
+    padding: 10px 25px ;
+    width: 180px;
+    background-color: grey;
+    border-color: white;
+    color: white;
+     font-size: 20px;
+     margin: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    color: grey;
+}
