@@ -1,33 +1,36 @@
 body{
-    background-image: linear-gradient(to left,rgb(119, 108, 108),rgb(216, 202, 202));
+    background-color: darksalmon;
     text-align: center;
-    color: rgb(59, 56, 56);
+    color:antiquewhite;
+ 
 }
 
 h1{
-    font-size: 60px;
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    font-size: 80px;
+    text-transform: uppercase;
+   font-family: 'Courier New', Courier, monospace;  
 }
 
-h2{
-    font-size: 40px;
-    	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
+
 
 p{
-    font-size: 30px;
+    font-size: 40px;
+
+    letter-spacing: 10px;
+    font-weight: 100px;
+    font-family: cursive;
+
 }
 
 button{
     padding: 10px 25px ;
     width: 180px;
-    background-color: grey;
+    background-color: antiquewhite;
     border-color: white;
-    color: white;
+    color: salmon;
      font-size: 20px;
      margin: 15px;
+     border-radius: 15px;
 }
 
 button:hover{
